@@ -36,6 +36,10 @@ header {
   margin-bottom: 0px;
 }
 
+.main-logo img {
+  height: 30px;
+}
+
 .main-logo {
   grid-area: nt;
   object-fit: cover;
@@ -44,10 +48,6 @@ header {
   padding-left: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.main-logo img {
-  height: 30px;
 }
 
 .main-nav {
@@ -121,12 +121,11 @@ header {
   text-decoration: underline;
 }
 
-.logos a {
-  padding: 10px;
-}
-
 .logo {
   color: #686868;
+}
+.logos a {
+  padding: 10px;
 }
 
 footer {
@@ -198,6 +197,10 @@ footer {
     padding-right: 20px;
   }
 
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
   .main-nav {
     display: grid;
     grid-gap: 0px;
@@ -205,20 +208,10 @@ footer {
     text-align: center;
   }
 
-  h1 {
-    text-align: center;
-    font-size: 18px;
-  }
-
   .box {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-  }
-
-  .box a:hover {
-    transition: transform 0.3s;
     transform: scale(1.2);
   }
 
